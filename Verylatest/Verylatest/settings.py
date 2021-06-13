@@ -145,4 +145,4 @@ LOGIN_URL = 'login'
 
 #  Add configuration for static files storage using whitenoise
 
-
+django_heroku.settings(locals())
