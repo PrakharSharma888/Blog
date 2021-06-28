@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="58a99467-6f9f-4b0e-9490-d165946e9fd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Verylatest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Verylatest/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Verylatest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Verylatest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
