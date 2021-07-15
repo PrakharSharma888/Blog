@@ -9,6 +9,10 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
+def about(request):
+    return render(request, 'blog/about.html')
+
+
 class PostListViews(ListView):
     model = Post
     template_name = 'blog/posts.html'
