@@ -141,14 +141,14 @@ LOGIN_URL = 'login'
 
 #  Add configuration for static files storage using whitenoise
 
-<<<<<<< HEAD
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-=======
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+
 
 django_heroku.settings(locals())
 
 import dj_database_url
 prod_db  =  dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
->>>>>>> 0d1e6a8fef4978e3c900df12d220a6e5039df24b
+
