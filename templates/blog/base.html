@@ -28,10 +28,20 @@
         <!-- Navbar Right Side -->
         <div class="navbar-nav">
           {% if user.is_authenticated %}
+            <form style="margin-top:7px; margin-right:3px;" method="get" action="search">
+              {% csrf_token %}
+            <input type="search" name="search">
+              <input type="submit" name="ok">
+              </form>
             <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
             <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
             <a class="nav-item nav-link" href="{% url 'post-new' %}">New Post</a>
           {% else %}
+            <form style="margin-top:7px; margin-right:3px;" method="get" action="search">
+              {% csrf_token %}
+            <input type="search" name="search">
+              <input type="submit" name="ok">
+              </form>
             <a class="nav-item nav-link" href="login">Login</a>
             <a class="nav-item nav-link" href="register">Register</a>
           {% endif %}
