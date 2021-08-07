@@ -75,3 +75,8 @@ class PostDeleteView(SuccessMessageMixin, DeleteView):
         return False
 
     template_name = 'blog/delete-post.html'
+    
+def search(request):
+    text = request.GET['search']
+    searchposts = Post.objects.filter(title__icontains=text)
+    return render(request, "blog/search.html", {'search': searchposts})
