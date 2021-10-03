@@ -8,7 +8,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
-
+# This is an about view
 def about(request):
     return render(request, 'blog/about.html')
 
